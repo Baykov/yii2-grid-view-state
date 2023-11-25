@@ -41,7 +41,7 @@ class FilterStateBehavior extends Behavior {
         $session = Yii::$app->session;
         /** @var \yii\grid\GridView $gridView */
         $gridView = $this->gridView;
-        $this->state = FilterStateTrait::getFilterStateParams($this->id);
+        $this->state = (new class { use FilterStateTrait; } )::getFilterStateParams($this->id);
         // Filter
         /** @var \yii\grid\DataColumn $column */
         foreach ($gridView->columns as $column) {
