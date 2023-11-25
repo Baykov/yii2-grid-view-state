@@ -11,13 +11,13 @@ Save filters from GridView to session, keep filter state between pages.
 To install, either run
 
 ```
-php composer.phar require --prefer-dist thrieu/yii2-grid-view-state "dev-master"
+php composer.phar require --prefer-dist Baykov/yii2-grid-view-state "dev-master"
 ```
     
 or add
     
 ```
-"thrieu/yii2-grid-view-state": "dev-master"
+"Baykov/yii2-grid-view-state": "dev-master"
 ```
     
 to the require section of your `composer.json` file and then run `composer update`.
