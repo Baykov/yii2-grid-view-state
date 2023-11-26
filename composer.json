@@ -1,5 +1,5 @@
 {
-  "name": "thrieu/yii2-grid-view-state",
+  "name": "baykov/yii2-grid-view-state",
   "description": "Save filters from GridView to session, keep the filter state between pages.",
   "keywords": [
     "yii2",
@@ -8,13 +8,13 @@
     "gridview",
     "filter"
   ],
-  "homepage": "https://github.com/thrieu/yii2-grid-view-state",
+  "homepage": "https://github.com/Baykov/yii2-grid-view-state",
   "type": "yii2-extension",
   "license": "BSD 3-Clause",
   "authors": [
     {
-      "name": "Theo Ding",
-      "email": "shiberiu@gmail.com"
+      "name": "Serhii Baikovskyi",
+      "email": "baykovskys@gmail.com"
     }
   ],
   "minimum-stability": "dev",
